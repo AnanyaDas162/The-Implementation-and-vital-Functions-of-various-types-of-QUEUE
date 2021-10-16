@@ -5,7 +5,7 @@ int* enqueue (int rear, int front, int q[20], int arr[2])
     int x;
     rear = arr[0];
     front = arr[1];
-    cout << "Enter the element to be inserted ::"<< endl;
+    cout << "Enter an element to be inserted :"<< endl;
     cin >> x;
     if (rear == -1 && front == -1)
     {
